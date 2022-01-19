@@ -14,7 +14,7 @@ const HomeSeo = () => {
           We Will Rank Your Website on the Top of Google. Our SEO service will
           Boost Your Business
         </h3>
-        <p className="fs-5 home-seo-desc py-3 w-50 mx-auto">
+        <p className="fs-5 home-seo-desc py-3 mx-auto">
           Before starting SEO of a Website, We run a deep audit and competitor
           analysis.
         </p>

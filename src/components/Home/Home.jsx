@@ -1,9 +1,12 @@
 import React from 'react';
 import HomeAbout from './HomeAbout';
 import HomePageServices from './HomePageServices';
+import HomePricingTable from './HomePricingTable';
 import HomeSeo from './HomeSeo';
+import OurClient from './OurClient';
 import ShortcutLinks from './ShortcutLinks';
 import Slider from './Slider';
+import Subscribe from './Subscribe';
 import Testimonial from './Testimonial';
 
 const Home = () => {
@@ -15,6 +18,9 @@ const Home = () => {
             <HomeAbout />
             <HomeSeo />
             <Testimonial />
+            <HomePricingTable />
+            <OurClient />
+            <Subscribe />
         </div>
     );
 };
