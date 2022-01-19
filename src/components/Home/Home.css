@@ -195,14 +195,126 @@
 
 
 .home-seo-btn-container{
-  width: 100rem !important;
+  width: 23rem !important;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.home-seo-btn-container a{
+  padding: 1rem 2rem;
+  color: #fff;
+}
+.home-seo-btn-container a:hover{
+  background-color: tomato !important;
+  color: #fff;
 }
 
 @media only screen and (max-width: 600px) {
   .home-seo-title{
     width: 100%;
   }
+  .home-seo-btn-container a{
+    padding: .7rem 1rem;
+  }
 }
+
+
+/* ======================= Testimonial ========================= */
+
+
+.testimonial-section{
+  background-color: #272727;
+}
+
+
+
+.testimonial-text{
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial-text h4{
+  padding: 2rem 0;
+}
+
+.testimonials{
+  padding: 3rem 0;
+  width: 50%;
+}
+
+
+
+.carousel-text{
+  position: absolute;
+  top: 4rem;
+  text-align: center;
+  color: #fff;
+}
+.carousel-text h5{
+  padding: 4rem 3rem;
+}
+.carousel-text h6{
+  font-weight: bold;
+  color: tomato;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .testimonial-container{
+    flex-direction: column;
+  }
+  .testimonial-text{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .testimonials{
+    width: 100%;
+    padding: 0;
+  }
+  .carousel-text{
+    top: 2rem;
+  }
+  .carousel-text h5{
+    font-size: .8rem;
+    padding: 1rem;
+  }
+  .carousel-text p{
+    font-size: .6rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

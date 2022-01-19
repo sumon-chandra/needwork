@@ -71,17 +71,16 @@ const HomeSeo = () => {
             </div>
           </div>
         </div>
-        <div className="home-seo-btn-container bg-primary p-5">
-          <li>
-            <Link to="#" className="btn bg-warning btn-lg   rounded-pill">
+        <div className="home-seo-btn-container">
+          
+            <Link to="#" className="btn bg-warning    rounded-pill">
               View more
             </Link>
-          </li>
-          <li>
-            <Link to="#" className="btn bg-warning btn-lg  rounded-pill">
+          
+            <Link to="#" className="btn bg-warning   rounded-pill">
               Get started
             </Link>
-          </li>
+          
         </div>
       </div>
     </div>

@@ -4,6 +4,7 @@ import HomePageServices from './HomePageServices';
 import HomeSeo from './HomeSeo';
 import ShortcutLinks from './ShortcutLinks';
 import Slider from './Slider';
+import Testimonial from './Testimonial';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <HomePageServices />
             <HomeAbout />
             <HomeSeo />
+            <Testimonial />
         </div>
     );
 };
