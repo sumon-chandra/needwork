@@ -7,3 +7,6 @@
  .container{
    width: 100% !important;
  }
+ .page-head{
+   padding-top: 5rem;
+ }

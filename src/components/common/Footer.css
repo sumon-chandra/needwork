@@ -86,13 +86,14 @@ footer .newsletter form input[type="submit"] {
     border: 0;
     font-size: 16px;
     background: tomato;
-    padding: 0 1rem;
+    padding: 0 1.6rem;
     color: #fff;
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
+    transition: .5s;
 }
 footer .newsletter form input[type="submit"]:hover {
-    background: #d5e440;
+    background: #df482d;
 }
 .footer-bottom {
     padding: 20px 0px;

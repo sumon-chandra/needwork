@@ -1,9 +1,9 @@
 import React from "react";
 import "./Home.css";
-import img1 from "../../img/seo/seo-1.svg";
-import img2 from "../../img/seo/seo-2.svg";
-import img3 from "../../img/seo/seo-3.svg";
-import img4 from "../../img/seo/seo-4.png";
+import img1 from "../../img/home-seo/seo-1.svg";
+import img2 from "../../img/home-seo/seo-2.svg";
+import img3 from "../../img/home-seo/seo-3.svg";
+import img4 from "../../img/home-seo/seo-4.png";
 import { Link } from "react-router-dom";
 
 const HomeSeo = () => {

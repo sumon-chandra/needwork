@@ -265,6 +265,9 @@
   color: tomato;
 }
 
+.testimonial-slider{
+  height: 30rem;
+}
 
 @media only screen and (max-width: 600px) {
   .testimonial-container{

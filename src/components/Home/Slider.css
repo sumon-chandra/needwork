@@ -2,9 +2,9 @@
 
 
 
-.carousel-item{
-    height: 32rem;
-    
+.main-carousel{
+    height: 38rem;
+    background-color: #ebfaff;
     position: relative;
 }
 .carousel-container{
@@ -18,13 +18,15 @@
     font-size: 1rem;
     padding: 1rem 0;
 }
-.slider-1{
-    background-image: url("../../img/slider/slider3.jpg");
-    background-position: center;
-    background-size: cover;
+.slider-text{
+    width: 40%;
 }
-.slider-2{
-    background-image: url("../../img/slider/slider4.jpg");
+
+.slider-img{
+    width: 40%;
+}
+.slider-img img{
+    width: 100%;
 }
 
 
@@ -50,5 +52,10 @@
     .carousel-container{
         bottom: 1rem;
     }
-    
+    .slider-img{
+        display: none;
+    }
+    .slider-text{
+        width: 100%;
+    }
   }

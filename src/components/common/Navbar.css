@@ -1,5 +1,58 @@
 
 
-.main-logo{
-    width: 12rem;
+
+
+
+
+.nav-contain{
+    height: 3rem;
 }
+.navbar-container{
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.main-logo{
+    width: 15rem;
+}
+.nav-item a{
+border-radius: .3em;
+
+transition: .5s;
+margin: 0 .5rem !important;
+padding: .4em .6em !important;
+font-weight: bold;
+}
+.nav-item a:hover{
+    color: tomato !important;
+    background-color: #ffffff;
+    border-bottom: 2px solid tomato;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-logo{
+        width: 10rem;
+    }
+    .nav-contain{
+        height: 100%;
+    }
+    .nav-item a{
+        text-align: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
