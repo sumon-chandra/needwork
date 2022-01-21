@@ -1,3 +1,5 @@
+
+/* ================ SHortcut Links Area ============= */
 .marketing {
   background-color: lightcoral;
   height: 11rem;
@@ -53,23 +55,18 @@
   color: #7b7b7b;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 688px) {
+  .shortcut a{
+    height: 5rem !important;
+  }
   .shortcut-span {
-    font-size: 2.5rem;
+    font-size: 2.5rem !important;
     right: 0;
     top: 0.3rem;
   }
-  .marketing h3 {
-    font-size: 0.5rem;
-  }
-  .web h3 {
-    font-size: 0.5rem;
-  }
-  .seo h3 {
-    font-size: 0.5rem;
-  }
-  .graphic h3 {
-    font-size: 0.5rem;
+  .links-title{
+    font-size: .7rem !important;
+    opacity: .9;
   }
   .seo {
     height: 4rem;
@@ -85,6 +82,17 @@
   }
 }
 
+@media only screen and (max-width: 995px) {
+  .links-title{
+    font-size: 1.3rem;
+  }
+  .shortcut-span{
+    font-size: 6rem;
+  }
+  .shortcut a{
+    height: 6rem;
+  }
+}
 /* ============= Service Area ============== */
 
 
@@ -120,7 +128,7 @@
     opacity: .8;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 688px) {
     .head-title h1{
         font-size: 2.4rem ;
         margin: 1rem 0;
@@ -156,7 +164,7 @@
     gap: 5rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 688px) {
   .about-container{
     flex-direction: column;
   }
@@ -211,7 +219,13 @@
   color: #fff;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 688px) {
+  .card-body{
+    padding: 0;
+  }
+  .card-title{
+    font-size: .8rem;
+  }
   .home-seo-title{
     width: 100%;
   }
@@ -219,7 +233,7 @@
     padding: .7rem 1rem;
   }
   .home-seo-desc{
-    width: 100% !important;
+    width: 50% !important;
   }
 }
 
@@ -269,7 +283,7 @@
   height: 30rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 688px) {
   .testimonial-container{
     flex-direction: column;
   }
@@ -478,7 +492,7 @@
 
 /* =================Subscribe Section ================== */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 688px) {
   .subscribe-section{
     height: 50vh;
   }  

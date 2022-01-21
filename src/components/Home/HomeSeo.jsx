@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
 import img1 from "../../img/home-seo/seo-1.svg";
 import img2 from "../../img/home-seo/seo-2.svg";
 import img3 from "../../img/home-seo/seo-3.svg";
 import img4 from "../../img/home-seo/seo-4.png";
 import { Link } from "react-router-dom";
+import Aos from "aos";
 
 const HomeSeo = () => {
+  useEffect( () => {
+    Aos.init({duration:2000})
+  }, [])
   return (
     <div className="container py-5 text-center">
       <div>
@@ -21,7 +25,7 @@ const HomeSeo = () => {
       </div>
       {/* ================ Cards =============== */}
       <div className="row row-cols-2 row-cols-sm-4 g-4">
-        <div className="col">
+        <div className="col" data-aos="fade-up">
           <div className="card d-flex flex-column align-items-center border-0">
             <img src={img1} className="card-img-top home-seo-img" alt="..." />
             <div className="card-body">
@@ -33,7 +37,7 @@ const HomeSeo = () => {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col" data-aos="fade-up">
           <div className="card d-flex flex-column align-items-center border-0">
             <img src={img2} className="card-img-top home-seo-img" alt="..." />
             <div className="card-body">
@@ -45,7 +49,7 @@ const HomeSeo = () => {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col" data-aos="fade-up">
           <div className="card d-flex flex-column align-items-center border-0">
             <img src={img3} className="card-img-top home-seo-img" alt="..." />
             <div className="card-body">
@@ -58,7 +62,7 @@ const HomeSeo = () => {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col" data-aos="fade-up">
           <div className="card d-flex flex-column align-items-center border-0">
             <img src={img4} className="card-img-top home-seo-img" alt="..." />
             <div className="card-body">
@@ -71,7 +75,7 @@ const HomeSeo = () => {
             </div>
           </div>
         </div>
-        <div className="home-seo-btn-container">
+        <div className="home-seo-btn-container" data-aos="fade-up">
           
             <Link to="#" className="btn bg-warning    rounded-pill">
               View more

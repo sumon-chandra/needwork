@@ -1,12 +1,10 @@
 
 
-
-
 .main-carousel{
-    height: 38rem;
-    background-color: #ebfaff;
+    height: 38rem ;
     position: relative;
 }
+
 .carousel-container{
     position: absolute;
     right: 0;
@@ -14,12 +12,16 @@
     bottom: 5rem;
     padding: 3rem;
 }
+.slider-title{
+    font-size: 3.7rem ;
+}
 .slider-desc{
-    font-size: 1rem;
+    font-size: 2rem;
     padding: 1rem 0;
 }
 .slider-text{
-    width: 40%;
+    width: 50%;
+    margin-left: 7rem;
 }
 
 .slider-img{
@@ -28,34 +30,68 @@
 .slider-img img{
     width: 100%;
 }
+.slider-btn{
+    background-color: tomato !important;
+    padding: .5rem 2rem !important;
+}
+.slider-btn:hover{
+    background-color: #fd5234 !important;
+}
+.slider-1{
+    background-color: lightcoral;
+}
+.slider-2{
+    background-color: lightgreen;
+}
+.slider-3{
+    background-color: lightseagreen;
+}
 
-
-@media only screen and (max-width: 600px) {
-    .carousel-item{
-        height: 18rem;
+@media only screen and (max-width: 688px) {
+    .main-carousel{
+        height: 12rem !important;
         
     }
     .carousel-container{
-        padding: 2rem;
+        padding: 2rem 3rem!important;
+        
     }
     .slider-title{
-        font-size: 1.3rem;
+        font-size: 1rem !important;
         
     }
     .slider-desc{
-        font-size: .8rem !important;
+        font-size: .6rem !important;
+        padding: 0 !important;
     }
     .slider-btn{
-       
-        padding: 1px 5px !important;
+        padding: .1rem 1rem !important;
+        font-size: .5rem !important;
     }
     .carousel-container{
         bottom: 1rem;
     }
-    .slider-img{
-        display: none;
-    }
     .slider-text{
         width: 100%;
+        margin-left: 0;
+    }
+  }
+
+  @media only screen and (max-width: 995px) {
+    .main-carousel{
+        height: 27rem;
+        
+    }
+    .slider-title{
+        font-size: 2.3rem;
+        
+    }
+    .slider-desc{
+        font-size: 1.2rem;
+        padding: 0;
+    }
+    .slider-text{
+        margin-left: 1rem;
+        width: 50%;
     }
   }

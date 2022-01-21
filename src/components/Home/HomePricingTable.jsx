@@ -10,7 +10,7 @@ const HomePricingTable = () => {
         </div>
         <div className="container">
     <div className="row">
-        <div className="col-md-5 col-lg-4 col-sm-6">
+        <div className="col-md-5 col-lg-4 col-sm-6  animate__fadeInRight">
             <div className="pricingTable">
                 <div className="pricing_heading">
                     <h3 className="title">Pricing Plan</h3>
@@ -33,7 +33,7 @@ const HomePricingTable = () => {
                 </div>
             </div>
         </div>
-        <div className="col-md-5 col-lg-4 col-sm-6">
+        <div className="col-md-5 col-lg-4 col-sm-6 animate__fadeInRight">
             <div className="pricingTable">
                 <div className="pricing_heading">
                     <h3 className="title">Pricing Plan</h3>
@@ -56,7 +56,7 @@ const HomePricingTable = () => {
                 </div>
             </div>
         </div>
-        <div className="col-md-5 col-lg-4 col-sm-6">
+        <div className="col-md-5 col-lg-4 col-sm-6 animate__fadeInRight">
             <div className="pricingTable">
                 <div className="pricing_heading">
                     <h3 className="title">Pricing Plan</h3>
@@ -79,7 +79,7 @@ const HomePricingTable = () => {
                 </div>
             </div>
         </div>
-        <div className="col-md-5 col-lg-4 col-sm-6">
+        <div className="col-md-5 col-lg-4 col-sm-6 animate__fadeInRight">
             <div className="pricingTable">
                 <div className="pricing_heading">
                     <h3 className="title">Pricing Plan</h3>
@@ -102,7 +102,7 @@ const HomePricingTable = () => {
                 </div>
             </div>
         </div>
-        <div className="col-md-5 col-lg-4 col-sm-6">
+        <div className="col-md-5 col-lg-4 col-sm-6 animate__fadeInRight">
             <div className="pricingTable">
                 <div className="pricing_heading">
                     <h3 className="title">Pricing Plan</h3>
@@ -125,7 +125,7 @@ const HomePricingTable = () => {
                 </div>
             </div>
         </div>
-        <div className="col-md-5 col-lg-4 col-sm-6">
+        <div className="col-md-5 col-lg-4 col-sm-6 animate__fadeInRight">
             <div className="pricingTable">
                 <div className="pricing_heading">
                     <h3 className="title">Pricing Plan</h3>
