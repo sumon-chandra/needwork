@@ -42,13 +42,13 @@ const Slider = () => {
         <div className="carousel-inner">
         <div className="carousel-item main-carousel active slider-1">
             <div className="carousel-container  container d-flex align-items-center justify-content-between">
-              <div className="slider-text">
+              <div  data-aos="fade-left" className="slider-text">
                 <h2 className="slider-title ">Digital Marketing & SEO</h2>
                 <p className="slider-desc ">
                   be found. be heard. be effective
                 </p>
                 <Link to="#" className="btn slider-btn rounded-pill text-white">
-                  Get more
+                  Explore
                 </Link>
               </div>
               <div className="slider-img"  data-aos="fade-left">
@@ -58,7 +58,7 @@ const Slider = () => {
           </div>
           <div className="carousel-item main-carousel slider-2">
             <div className="carousel-container  container d-flex align-items-center justify-content-between">
-              <div className="slider-text">
+              <div data-aos="fade-left" className="slider-text">
                 <h2 className="slider-title ">Graphic Designing</h2>
                 <p className="slider-desc ">
                   design is a solution to a problem, <br />art is a question to a problem
@@ -68,13 +68,13 @@ const Slider = () => {
                 </Link>
               </div>
               <div className="slider-img"  data-aos="fade-left">
-                <img  src={graphicSlider} alt="" />
+                <img  data-aos="fade-left" src={graphicSlider} alt="" />
               </div>
             </div>
           </div>
           <div className="carousel-item main-carousel slider-3">
             <div className="carousel-container  container d-flex align-items-center justify-content-between">
-              <div className="slider-text">
+              <div  data-aos="fade-left" className="slider-text">
                 <h2 className="slider-title ">
                   Web Design & <br /> Development
                 </h2>
@@ -86,7 +86,7 @@ const Slider = () => {
                 </Link>
               </div>
               <div className="slider-img"  data-aos="fade-left">
-                <img  src={webSlider} alt="" />
+                <img  data-aos="fade-left" src={webSlider} alt="" />
               </div>
             </div>
           </div>

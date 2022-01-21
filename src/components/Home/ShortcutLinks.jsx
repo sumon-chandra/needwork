@@ -7,7 +7,7 @@ const ShortcutLinks = () => {
         <div className=''>
              <div className="d-flex shortcut">
              <Link to="#" className="marketing  px-2  text-dark">
-                     <h3 className='links-title'>Search Engine <br /> Optimisation  <span className='shortcut-span'>02</span></h3>
+                     <h3 className='links-title'>Digital marketing  <span className='shortcut-span'>02</span></h3>
                      
                  </Link>
                  <Link to="#" className="seo  px-2  text-dark">

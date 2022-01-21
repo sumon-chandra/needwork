@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import footerImg from "../../img/logo/logo02.png"
-import "./Footer.css"
+import footerImg from "../../img/logo/logo02.png";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -13,12 +13,12 @@ const Footer = () => {
               <div className="col-lg-3 col-sm-6">
                 <div className="address">
                   <img src={footerImg} className="w-50" alt="" />
-                  <p className="mb-4 mt-4">Shahabad Markanda, 136135, <br /> India</p>
+                  <p className="mb-4 mt-4">Mirpur, Dhaka</p>
                   <p>
-                    <strong>Phone:</strong> +91 8558020904
+                    <strong>Phone:</strong> 01722077442
                   </p>
                   <p>
-                    <strong>Email:</strong> markuptag20@gmail.com
+                    <strong>Email:</strong> needworkservices@gmail.com
                   </p>
                 </div>
               </div>
@@ -45,13 +45,12 @@ const Footer = () => {
                 <ul>
                   <li>
                     <i className="fas fa-check"></i>{" "}
-                    <Link to="#">Web Design</Link>
+                    <Link to="#">Web Design & Development</Link>
                   </li>
                   <li>
-                    <i className="fas fa-check"></i>{" "}
-                    <Link to="#">Web Development</Link>
+                    <i className="fas fa-check"></i> <Link to="#">SEO</Link>
                   </li>
-                  
+
                   <li>
                     <i className="fas fa-check"></i>{" "}
                     <Link to="#">Digital Marketing</Link>
@@ -65,27 +64,27 @@ const Footer = () => {
 
               <div className="col-lg-4 col-sm-6 newsletter">
                 <h4>Our Newsletter</h4>
-                <p>
-                  Tamen quem nulla quae legam multos aute sint culpa legam
-                  noster magna
+                <p className="text-secondary">
+                  “Waiting for perfect time and opportunity. It comes never -
+                  start now.” <br /> - <span className="highlight py-2">Amit Ray</span>
                 </p>
                 <form action="" method="post">
-                  <input type="email" name="email" />
-                  <input type="submit" value="Subscribe" />
+                  <input placeholder="Email..." type="email" name="email" />
+                  <input type="submit" value="Submit" />
                 </form>
 
                 <div className="social-links mt-3">
-                  <Link to="#">
+                  <Link to="https://www.facebook.com/needworkservices">
                     <i className="fab fa-facebook-f"></i>
                   </Link>
                   <Link to="#">
                     <i className="fab fa-twitter"></i>
                   </Link>
-                  <Link to="#">
+                  <Link to="https://www.linkedin.com/company/need-work">
                     <i className="fab fa-linkedin-in"></i>
                   </Link>
                   <Link to="#">
-                    <i className="fab fa-instagram"></i>
+                    <i className="fab fa-youtube"></i>
                   </Link>
                   <Link to="#">
                     <i className="fab fa-pinterest-p"></i>

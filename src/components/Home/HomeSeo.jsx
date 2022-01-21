@@ -9,22 +9,22 @@ import Aos from "aos";
 
 const HomeSeo = () => {
   useEffect( () => {
-    Aos.init({duration:2000})
+    Aos.init({duration:1000})
   }, [])
   return (
     <div className="container py-5 text-center">
       <div>
-        <h3 className="home-seo-title fs-2">
+        <h3 data-aos="fade-right" className="home-seo-title fs-2">
           We Will Rank Your Website on the Top of Google. Our SEO service will
           Boost Your Business
         </h3>
-        <p className="fs-5 home-seo-desc py-3 mx-auto">
+        <p data-aos="fade-left" className="fs-5 home-seo-desc py-3 mx-auto">
           Before starting SEO of a Website, We run a deep audit and competitor
           analysis.
         </p>
       </div>
       {/* ================ Cards =============== */}
-      <div className="row row-cols-2 row-cols-sm-4 g-4">
+      <div className="row row-cols-4 row-cols-sm-2 row-cols-md-2">
         <div className="col" data-aos="fade-up">
           <div className="card d-flex flex-column align-items-center border-0">
             <img src={img1} className="card-img-top home-seo-img" alt="..." />
@@ -77,11 +77,11 @@ const HomeSeo = () => {
         </div>
         <div className="home-seo-btn-container" data-aos="fade-up">
           
-            <Link to="#" className="btn bg-warning    rounded-pill">
+            <Link to="#" className="btn home-seo-btn    rounded-pill">
               View more
             </Link>
           
-            <Link to="#" className="btn bg-warning   rounded-pill">
+            <Link to="#" className="btn home-seo-btn   rounded-pill">
               Get started
             </Link>
           

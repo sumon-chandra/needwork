@@ -1,12 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
+import starSticker from "../../img/sticker/star.png";
+import personSticker from "../../img/sticker/person.png";
+import likeSticker from "../../img/sticker/like.png"
+import Aos from "aos";
+
 
 const Testimonial = () => {
+  useEffect( () => {
+    Aos.init({duration: 1000})
+  },[])
   return (
     <div className="testimonial-section">
+      <div className="sticker">
+        <img data-aos="fade-left" className="starSticker" src={starSticker} alt="" />
+        <img data-aos="fade-up" className="personSticker" src={personSticker} alt="" />
+        <img data-aos="flip-right" className="likeSticker" src={likeSticker} alt="" />
+      </div>
       <div className="testimonial-container container d-flex">
           <div className="testimonial-text text-white">
-              <h4 className="fs-1">Happy Clients <br /> About Us</h4>
-              <p>See! What Do Our Clients Say About Us!</p>
+              <h4 data-aos="fade-left" className="fs-1">Happy Clients <br /> About Us</h4>
+              <p data-aos="fade-right">See! What Do Our Clients Say About Us!</p>
           </div>
           <div className="testimonials">
           <div

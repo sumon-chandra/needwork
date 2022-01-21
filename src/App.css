@@ -4,9 +4,57 @@
   font-family: 'Quando', serif;
 }
 
+.highlight{
+  color: tomato;
+}
  .container{
    width: 100% !important;
  }
  .page-head{
    padding-top: 4rem;
  }
+
+ .head-title h1 {
+  font-size: 5rem;
+  
+  font-weight: 100 !important;
+  display: inline-block;
+  margin: 5rem 0 ;
+  padding: 1.5rem;
+  background-image: linear-gradient(120deg, #0526ff63 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+
+.head-title h1:hover {
+  background-size: 100% 88%;
+  
+}
+
+@media only screen and (max-width: 688px) {
+  .head-title h1{
+    font-size: 2.4rem ;
+    margin: 1rem 0;
+   padding: 1rem;
+}
+}
+
+@media only screen and (max-width: 995px) {
+  .head-title h1{
+    font-size: 2.4rem ;
+    margin: 2rem 0;
+   padding: 1rem;
+}
+}
+
+
+
+
+
+
+
+
+
+

@@ -5,7 +5,7 @@ import "./Home.css"
 const OurClient = () => {
     return (
         <div>
-            <div className="head-title text-center">
+            <div data-aos="fade-up" className="head-title text-center">
           <h1> Our Happy Clients</h1>
         </div>
         <section className="logo-list pb-5">
