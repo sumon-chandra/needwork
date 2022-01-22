@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 import likePeople from "../../img/sticker/like-men.png";
 import laptopSticker from "../../img/sticker/laptop.png";
-import mobileSticker from "../../img/sticker/smartphone.png";
-
+import sentMail from "../../img/sticker/send-mail.png";
+import sent from "../../img/sticker/send.png"
 const Subscribe = () => {
   useEffect( () => {
     Aos.init({duration:500})
@@ -16,7 +16,8 @@ const Subscribe = () => {
         <div className="empty">
           <img data-aos="fade-right" className="like-men" src={likePeople} alt="" />
           <img data-aos="flip-right" src={laptopSticker} alt="" className="laptop-sticker" />
-          <img data-aos="fade-up" src={mobileSticker} alt="" className="mobile-sticker" />
+          <img data-aos="fade-up" src={sent} alt="" className="sentMail-sticker" />
+          <img data-aos="fade-up-right" src={sentMail} alt="" className="sent-sticker" />
         </div>
         <form data-aos="fade-left" className="form-section">
           <div className="mb-3">

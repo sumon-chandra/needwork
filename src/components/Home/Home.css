@@ -562,14 +562,20 @@
 .laptop-sticker{
   width: 8rem;
   position: absolute;
-  top: 5rem;
+  top: 11rem;
   transform: rotate(-30deg);
 }
-.mobile-sticker{
+.sentMail-sticker{
   width: 8rem;
   position: absolute;
-  bottom: 4rem;
-  right: 40rem;
+  top: 10rem;
+  right: 35rem;
+}
+.sent-sticker{
+  width: 8rem;
+  position: absolute;
+  top: 1rem;
+  right:10rem;
 }
 .form-section input{
   width: 100%;

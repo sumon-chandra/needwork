@@ -1,0 +1,141 @@
+
+
+
+.about-top-container{
+    background-image: url("../../img/about/about-bg.png");
+    color: #f3f3f3;
+    padding: 5rem 0;
+}
+.about-top a{
+    color: #f3f3f3;
+    text-decoration: none;
+}
+.fa-arrow-right{
+    transition: .8s;
+}
+.about-top a:hover .fa-arrow-right{
+    margin-left: 1rem;
+}
+
+.about-section{
+    padding-top: 10rem;
+}
+.about-title{
+    font-size: 3rem;
+}
+.about-us h5{
+    opacity: .7;
+    padding: 1rem;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+.about-us p{
+    opacity: .7;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+.our-mission p{
+    opacity: .7;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+
+.our-mission{
+    padding: 4rem 0;
+}
+.our-mission h2{
+    padding-bottom: 3rem;
+}
+.why-best h2{
+    padding-bottom: 3rem;
+}
+
+.why-best ul{
+    padding: 4rem 0;
+    width: 50%;
+}
+
+.why-best ul li{
+    padding: .5rem 0;
+    list-style: none;
+    transition: .5s;
+    display: inline-block;
+
+}
+
+.why-best ul li:hover{
+    margin-left: 1rem;
+    color: tomato;
+}
+
+
+@media only screen and (max-width: 688px) {
+    .about-section{
+        padding-top: 2rem;
+    }
+    .about-title{
+        font-size: 1.4rem !important;
+    }
+    .about-us h5{
+        font-size: 1rem !important;
+        line-height: 1.4rem;
+        text-align: left !important;
+        padding: 1rem 0;
+    }
+    .about-us p{
+        font-size: .7rem !important;
+        line-height: 1rem;
+        text-align: left !important;
+    }
+    .our-mission p{
+        font-size: .7rem !important;
+        line-height: 1.4rem;
+        text-align: left !important;
+    }
+    
+    
+    .our-mission{
+        padding: 1rem 0;
+    }
+    .our-mission h2{
+        padding-bottom: 1rem;
+    }
+    .why-best h2{
+        padding-bottom: 1rem;
+    }
+    .why-best ul li{
+        font-size: .7rem;
+        padding: .5rem 0;
+        list-style: none;
+        transition: .5s;
+        display: inline-block;
+    
+    }
+
+}
+
+@media only screen and (max-width: 995px) {
+    .about-section{
+        padding-top: 3rem;
+    }
+    .about-us h5 {
+        text-align: left !important;
+        padding: 1.2rem 0;
+    }
+    .about-us p{
+        font-size: 1rem;
+        line-height: 1.6rem;
+        text-align: left;
+    }
+    .about-title{
+        font-size: 2.4rem;
+    }
+    .why-best ul{
+        padding: 1.5rem 0;
+        width: 100%;
+    }
+}
+
+
+
