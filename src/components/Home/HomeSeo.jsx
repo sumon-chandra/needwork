@@ -24,11 +24,11 @@ const HomeSeo = () => {
         </p>
       </div>
       {/* ================ Cards =============== */}
-      <div className="row row-cols-4 row-cols-sm-2 row-cols-md-2">
+      <div className="row row-cols-2 row-cols-sm-2 row-cols-md-2">
         <div className="col" data-aos="fade-up">
           <div className="card d-flex flex-column align-items-center border-0">
             <img src={img1} className="card-img-top home-seo-img" alt="..." />
-            <div className="card-body">
+            <div className="card-body px-0">
               <h5 className="card-title fw-bold">AUDIT & ANALYSIS</h5>
               <p className="card-text">
                 When we start SEO of a website, We do a deep website audit and
@@ -40,7 +40,7 @@ const HomeSeo = () => {
         <div className="col" data-aos="fade-up">
           <div className="card d-flex flex-column align-items-center border-0">
             <img src={img2} className="card-img-top home-seo-img" alt="..." />
-            <div className="card-body">
+            <div className="card-body px-0">
               <h5 className="card-title fw-bold">KEYWORD RESEARCH</h5>
               <p className="card-text">
                 We do deep keyword research for you. We also do spying on your
@@ -52,7 +52,7 @@ const HomeSeo = () => {
         <div className="col" data-aos="fade-up">
           <div className="card d-flex flex-column align-items-center border-0">
             <img src={img3} className="card-img-top home-seo-img" alt="..." />
-            <div className="card-body">
+            <div className="card-body px-0">
               <h5 className="card-title fw-bold">STRATEGY</h5>
               <p className="card-text">
                 After deep Audit, We solve the technical issues and make a
@@ -65,7 +65,7 @@ const HomeSeo = () => {
         <div className="col" data-aos="fade-up">
           <div className="card d-flex flex-column align-items-center border-0">
             <img src={img4} className="card-img-top home-seo-img" alt="..." />
-            <div className="card-body">
+            <div className="card-body px-0">
               <h5 className="card-title fw-bold">IMPLEMENTATION</h5>
               <p className="card-text">
                 After fixing the SEO/SMM/SEM startegy by doing competitor

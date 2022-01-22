@@ -131,7 +131,8 @@
         align-items: center;
   }
   .home-service-img{
-    width: 7rem;
+    width: 6rem;
+
   }
   .card-text{
     font-size: .8rem !important;
@@ -479,11 +480,12 @@
   display: inline-block;
   padding: 9px 20px;
   font-weight: 700;
-  color: #EF476F;
+  color: tomato;
   text-transform: uppercase;
-  border: 1px solid #EF476F;
+  border: 1px solid tomato;
   background: #fff;
   transition: all 0.4s ease 0s;
+  text-decoration: none;
 }
 .pricingTable:hover .link a{
   color: #fff;
@@ -575,7 +577,7 @@
 }
 
 .subscribe-btn{
-  width: 100%;
+  width: 100% !important;
   padding: 1rem 0 !important;
 }
 
@@ -594,7 +596,7 @@
     display: none;
   }
   .form-section{
-    width: 100%;
+    width: 80% !important;
     margin: 4rem 0;
   }
   .form-section input{
@@ -607,12 +609,22 @@
 }
 
 @media only screen and (max-width: 995px) {
-  .empty{
-    display: none;
+  .like-men{
+    width: 16rem;
   }
   .form-section{
-    width: 100%;
+    width: 60%;
     margin: 4rem 0;
+  }
+  .laptop-sticker{
+    width: 5rem;
+    position: absolute;
+    top: 2rem;
+    transform: rotate(-30deg);
+    right: 3rem;
+  }
+  .mobile-sticker{
+    display: none;
   }
 }
 

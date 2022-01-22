@@ -24,7 +24,7 @@ const HomeAbout = () => {
             best SEO Services in Bangladesh
           </p>
           <p className="home-about-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde ex, exercitationem aperiam eaque excepturi provident cupiditate inventore voluptatibus iure quibusdam officia! Consectetur perferendis earum possimus voluptatum, maiores vel sed reprehenderit.</p>
-          <Link to="#" className="btn about-btn rounded-pill text-white">
+          <Link data-aos="fade-left" to="#" className="btn about-btn rounded-pill text-white">
             View more
           </Link>
         </div>
