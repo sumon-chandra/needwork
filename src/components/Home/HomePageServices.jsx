@@ -17,7 +17,7 @@ const HomePageServices = () => {
         <h1> Our Services</h1>
       </div>
       <div className="row row-cols-1 row-cols-md-2 g-4 ">
-        <div data-aos="fade-right" className="col">
+        <div data-aos="fade-up" className="col">
           <div className="card border-0">
             <img
               src={marketingIcon}
@@ -40,7 +40,7 @@ const HomePageServices = () => {
             </div>
           </div>
         </div>
-        <div data-aos="fade-left" className="col">
+        <div data-aos="fade-up" className="col">
           <div className="card border-0">
             <img
               src={seoIcon}
@@ -60,7 +60,7 @@ const HomePageServices = () => {
             </div>
           </div>
         </div>
-        <div data-aos="fade-right" className="col">
+        <div data-aos="fade-up" className="col">
           <div className="card border-0">
             <img
               src={webIcon}
@@ -85,7 +85,7 @@ const HomePageServices = () => {
             </div>
           </div>
         </div>
-        <div data-aos="fade-left" className="col">
+        <div data-aos="fade-up" className="col">
           <div className="card border-0">
             <img
               src={graphicIcon}

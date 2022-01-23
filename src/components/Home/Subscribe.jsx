@@ -14,14 +14,14 @@ const Subscribe = () => {
     <div className="subscribe-section">
       <div className="subscribe-container container">
         <div className="empty">
-          <img data-aos="fade-right" className="like-men" src={likePeople} alt="" />
+          <img data-aos="fade-up" className="like-men" src={likePeople} alt="" />
           <img data-aos="flip-right" src={laptopSticker} alt="" className="laptop-sticker" />
           <img data-aos="fade-up" src={sent} alt="" className="sentMail-sticker" />
           <img data-aos="fade-up-right" src={sentMail} alt="" className="sent-sticker" />
         </div>
-        <form data-aos="fade-left" className="form-section">
-          <div className="mb-3">
-            <label for="exampleInputEmail1" data-aos="fade-down" className="form-label fs-4">
+        <form className="form-section">
+          <div className="mb-3" >
+            <label for="exampleInputEmail1" className="form-label fs-4">
               Let's jump right in....
             </label>
             <input

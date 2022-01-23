@@ -124,6 +124,10 @@
     .card-text{
         font-size: .7rem;
     }
+    .home-service-img{
+      width: 8.6rem !important;
+      height: 8rem;
+    }
 }
 @media only screen and (max-width: 995px) {
   .card{
@@ -175,6 +179,8 @@
   }
   .home-about-title-2{
     font-size: 1rem;
+    text-align: left;
+    width: 100% !important;
   }
   .home-about-desc{
     font-size: .7rem;
@@ -212,7 +218,7 @@
 }
 
 .home-seo-desc{
-  opacity: .7;
+  opacity: .7 !important;
   width: 50%;
 }
 
@@ -247,12 +253,14 @@
   }
   .home-seo-title{
     width: 100%;
+    text-align: left;
   }
   .home-seo-btn-container a{
     padding: .7rem 1rem;
   }
   .home-seo-desc{
-    width: 50% !important;
+    text-align: left;
+    width: 100% !important;
   }
 }
 @media only screen and (max-width: 995px) {
@@ -598,9 +606,7 @@
     flex-direction: column;
     
   }
-  .empty{
-    display: none;
-  }
+  
   .form-section{
     width: 80% !important;
     margin: 4rem 0;
@@ -619,8 +625,9 @@
     width: 16rem;
   }
   .form-section{
-    width: 60%;
-    margin: 4rem 0;
+    width: 80%;
+    margin: 4rem auto;
+
   }
   .laptop-sticker{
     width: 5rem;
@@ -630,6 +637,9 @@
     right: 3rem;
   }
   .mobile-sticker{
+    display: none;
+  }
+  .empty{
     display: none;
   }
 }

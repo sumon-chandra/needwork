@@ -14,11 +14,11 @@ const HomeSeo = () => {
   return (
     <div className="container py-5 text-center">
       <div>
-        <h3 data-aos="fade-right" className="home-seo-title fs-2">
+        <h3 data-aos="fade-up" className="home-seo-title fs-2">
           We Will Rank Your Website on the Top of Google. Our SEO service will
           Boost Your Business
         </h3>
-        <p data-aos="fade-left" className="fs-5 home-seo-desc py-3 mx-auto">
+        <p data-aos="fade-up" className="fs-5 home-seo-desc py-3 mx-auto">
           Before starting SEO of a Website, We run a deep audit and competitor
           analysis.
         </p>

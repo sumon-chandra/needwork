@@ -18,8 +18,8 @@ const Testimonial = () => {
       </div>
       <div className="testimonial-container container d-flex">
           <div className="testimonial-text text-white">
-              <h4 data-aos="fade-left" className="fs-1">Happy Clients <br /> About Us</h4>
-              <p data-aos="fade-right">See! What Do Our Clients Say About Us!</p>
+              <h4 data-aos="fade-up" className="fs-1">Happy Clients <br /> About Us</h4>
+              <p data-aos="fade-up">See! What Do Our Clients Say About Us!</p>
           </div>
           <div className="testimonials">
           <div

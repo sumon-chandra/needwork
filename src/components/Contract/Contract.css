@@ -1,0 +1,92 @@
+
+
+/* ============ Top Head ========== */
+.about-top-container{
+    background-image: url("../../img/about/about-bg.png");
+    color: #f3f3f3;
+    padding: 5rem 0;
+}
+.about-top a{
+    color: #f3f3f3;
+    text-decoration: none;
+}
+.fa-arrow-right{
+    transition: .8s;
+}
+.about-top a:hover .fa-arrow-right{
+    margin-left: 1rem;
+}
+/* ============= */
+
+
+.container-fluid {
+    background-color: tomato
+}
+
+.msg-form {
+    background-color: white;
+    padding: 20px
+}
+
+.pad-icon {
+    padding-top: 50px;
+    padding-left: 20px
+}
+
+.pad-icon a {
+    text-decoration: none;
+    margin-right: 40px
+}
+
+.input-group input:focus {
+    border: 1px solid blue
+}
+
+.pad-icon a:active {
+    height: 10px;
+    width: 90px;
+    background-color: #00ff48;
+    border-radius: 100%
+}
+
+.links {
+    padding-top: 50px;
+    width: 50%
+}
+.links a{
+    text-align:left;
+    
+}
+.form-group{
+    padding: 1rem 0;
+}
+
+#bordering a:active {
+    border: 1px solid #0080ff
+}
+
+@media only screen and (max-width:668px) {
+    .links {
+        padding-top: 0;
+        width: 100%;
+        
+    }
+    .links a{
+        width: 100%;
+        font-size: .7rem;
+        text-align:left;
+    }
+}
+
+@media only screen and (max-width:995px) {
+    .links {
+        padding-top: 0;
+        width: 100%;
+        
+    }
+    .links a{
+        width: 100%;
+        font-size: .9rem;
+        text-align:left ;
+    }
+}
