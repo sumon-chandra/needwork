@@ -61,38 +61,24 @@ footer .footer-menus ul a {
 footer .footer-menus ul a:hover {
     color: tomato;
 }
-footer .newsletter form {
-    margin-top: 30px;
-    background: #3a3a3a;
-    padding: 6px 10px;
-    position: relative;
-    border-radius: 50px;
-    border: 1px solid #3a3a3a;
-}
-footer .newsletter form input[type="email"] {
-    border: 0;
-    padding: 5px;
-    background: #3a3a3a;
-    color: #fff;
-}
-footer .newsletter form input[type="email"]:focus {
-    outline: none;
-}
-footer .newsletter form input[type="submit"] {
-    position: absolute;
-    top: -1px;
+
+
+
+footer .newsletter form a {
+    /* position: absolute; */
+    /* top: -1px;
     right: -1px;
-    bottom: -1px;
+    bottom: -1px; */
     border: 0;
     font-size: 16px;
     background: tomato;
-    padding: 0 1.6rem;
+    padding: .6 1.6rem;
     color: #fff;
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
     transition: .5s;
 }
-footer .newsletter form input[type="submit"]:hover {
+footer .newsletter form a:hover {
     background: #bd4029;
 }
 .footer-bottom {

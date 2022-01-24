@@ -148,7 +148,9 @@
 
 /* ================ About Area ================ */
 
-
+.home-about-text{
+  width: 80%;
+}
 
 .home-about-desc{
     font-size: 1rem;
@@ -163,7 +165,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
+}
+.home-about-img iframe{
+  height: 25rem;
 }
 
 .about-btn{
@@ -184,6 +189,7 @@
   }
   .home-about-desc{
     font-size: .7rem;
+    text-align: left;
   }
   .home-about-img img{
     width: 100%;
@@ -203,8 +209,12 @@
     width: 24rem;
   }
   .home-about-title-2{
-    width: 70%;
-    margin: auto;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+  .home-about-desc{
+    text-align: left;
   }
 }
 

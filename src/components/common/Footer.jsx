@@ -31,11 +31,19 @@ const Footer = () => {
                   </li>
                   <li>
                     <i className="fas fa-check"></i>{" "}
-                    <Link to="#">About us</Link>
+                    <Link to="/about-us">About us</Link>
                   </li>
                   <li>
                     <i className="fas fa-check"></i>{" "}
-                    <Link to="#">Services</Link>
+                    <Link to="/services">Services</Link>
+                  </li>
+                  <li>
+                    <i className="fas fa-check"></i>{" "}
+                    <Link to="/teams">Teams</Link>
+                  </li>
+                  <li>
+                    <i className="fas fa-check"></i>{" "}
+                    <Link to="/contract">Contract</Link>
                   </li>
                 </ul>
               </div>
@@ -45,7 +53,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <i className="fas fa-check"></i>{" "}
-                    <Link to="#">Web Design & Development</Link>
+                    <Link to="/services">Web Design & Development</Link>
                   </li>
                   <li>
                     <i className="fas fa-check"></i> <Link to="#">SEO</Link>
@@ -53,11 +61,11 @@ const Footer = () => {
 
                   <li>
                     <i className="fas fa-check"></i>{" "}
-                    <Link to="#">Digital Marketing</Link>
+                    <Link to="/services">Digital Marketing</Link>
                   </li>
                   <li>
                     <i className="fas fa-check"></i>{" "}
-                    <Link to="#">Graphic Design</Link>
+                    <Link to="/services">Graphic Design</Link>
                   </li>
                 </ul>
               </div>
@@ -69,8 +77,8 @@ const Footer = () => {
                   start now.” <br /> - <span className="highlight py-2">Amit Ray</span>
                 </p>
                 <form action="" method="post">
-                  <input placeholder="Email..." type="email" name="email" />
-                  <input type="submit" value="Submit" />
+                  
+                  <Link to="/contract" className="btn btn-lg w-100">Contract us</Link>
                 </form>
 
                 <div className="social-links mt-3">

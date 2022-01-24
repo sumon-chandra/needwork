@@ -14,8 +14,11 @@ const HomeAbout = () => {
         <h1>About <span className="highlight">Need Work</span> </h1>
       </div>
       <div className=" about-container">
-        <div data-aos="fade-up" className="home-about-img">
-          <img src={homeAboutImg} alt="" />
+        <div data-aos="fade-up" className="home-about-img w-100">
+          {/* ==============
+          
+          =================*/}
+          <iframe className="col-12" src="https://www.youtube.com/embed/m1WcPRQzNdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div data-aos="fade-up" className="home-about-text">
           <h3>We Offer a Full Range of Digital Marketing Services!</h3>
@@ -24,7 +27,7 @@ const HomeAbout = () => {
             best SEO Services in Bangladesh
           </p>
           <p className="home-about-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde ex, exercitationem aperiam eaque excepturi provident cupiditate inventore voluptatibus iure quibusdam officia! Consectetur perferendis earum possimus voluptatum, maiores vel sed reprehenderit.</p>
-          <Link data-aos="fade-up" to="#" className="btn about-btn rounded-pill text-white">
+          <Link data-aos="fade-up" to="/services" className="btn about-btn rounded-pill text-white">
             View more
           </Link>
         </div>

@@ -33,7 +33,7 @@ const Subscribe = () => {
               required
             />
           </div>
-          <Link to="#" type="submit" className="btn btn-dark rounded-pill subscribe-btn">
+          <Link to="/contract" type="submit" className="btn btn-dark rounded-pill subscribe-btn">
             Submit
           </Link>
         </form>

@@ -34,7 +34,7 @@ const HomePageServices = () => {
                 social media and content marketing. Each week we’ll learn about
                 a new topic and how you can use it to grow your business.
               </p>
-              <Link to="#" className="btn bg-dark text-white btn-sm">
+              <Link to="/services" className="btn bg-dark text-white btn-sm">
                 View more
               </Link>
             </div>
@@ -54,7 +54,7 @@ const HomePageServices = () => {
               <p className="card-text">
               We are offering an SEO service for your website, we can do it by on-page SEO, off-page SEO, to our clients. We are offering SEO services to our clients at an affordable prices. 
               </p>
-              <Link to="#" className="btn bg-dark text-white btn-sm">
+              <Link to="/services" className="btn bg-dark text-white btn-sm">
                 View more
               </Link>
             </div>
@@ -79,7 +79,7 @@ const HomePageServices = () => {
                 maintenance so you don't need to worry about keeping your site
                 up-to-date and secure.
               </p>
-              <Link to="#" className="btn bg-dark text-white btn-sm">
+              <Link to="/services" className="btn bg-dark text-white btn-sm">
                 View more
               </Link>
             </div>
@@ -98,7 +98,7 @@ const HomePageServices = () => {
               </h5>
               <p className="card-text">
              We provide a full spectrum of design services. Our team of designers and brand strategists is committed to providing high-quality design and brand strategy at an affordable price. We also offer a 100% satisfaction guarantee on all of our design services.              </p>
-              <Link to="#" className="btn bg-dark text-white btn-sm">
+              <Link to="/services" className="btn bg-dark text-white btn-sm">
                 View more
               </Link>
             </div>

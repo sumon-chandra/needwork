@@ -77,11 +77,11 @@ const HomeSeo = () => {
         </div>
         <div className="home-seo-btn-container" data-aos="fade-up">
           
-            <Link to="#" className="btn home-seo-btn    rounded-pill">
+            <Link to="/services" className="btn home-seo-btn    rounded-pill">
               View more
             </Link>
           
-            <Link to="#" className="btn home-seo-btn   rounded-pill">
+            <Link to="/contract" className="btn home-seo-btn   rounded-pill">
               Get started
             </Link>
           

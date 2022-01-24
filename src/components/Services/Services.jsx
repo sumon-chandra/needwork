@@ -99,7 +99,7 @@ you a modern, clean website that meets the needs of your brand today, and will b
               <div class="service-box">
                 <img src={graphicIcon} alt="" />
                 <h4>
-                  <Link to="#">Graphic Designing</Link>
+                  <Link to="#">Graphic Design</Link>
                 </h4>
                 <p>
                 We all know the power of a good logo. One that’s unique and instantly recognisable, it symbolises an idea and personality 

@@ -58,7 +58,7 @@ const Contract = () => {
                 needworkservices@gmail.com
               </a>
               <a href="#" class="btn rounded text-white pe-3 text-italic">
-                <i class="fa fa-map-marker icon  pe-3"></i>Mirpur 102
+                <i class="fa fa-map-marker icon  pe-3"></i>Mirpur 1
                 Dhaka, Bangladesh
               </a>
             </div>
