@@ -1,8 +1,9 @@
 import React from 'react';
 import HomeAbout from './HomeAbout';
 import HomePageServices from './HomePageServices';
-import HomePricingTable from './HomePricingTable';
+// import HomePricingTable from './HomePricingTable';
 import HomeSeo from './HomeSeo';
+import HomeTeams from './HomeTeams';
 import OurClient from './OurClient';
 import ShortcutLinks from './ShortcutLinks';
 import Slider from './Slider';
@@ -18,7 +19,8 @@ const Home = () => {
             <HomeAbout />
             <HomeSeo />
             <Testimonial />
-            <HomePricingTable />
+            {/* <HomePricingTable /> */}
+            <HomeTeams />
             <OurClient />
             <Subscribe />
         </div>

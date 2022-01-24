@@ -288,7 +288,9 @@
 
 /* ======================= Testimonial ========================= */
 
-
+.team-section{
+  background-color: blueviolet !important;
+}
 .testimonial-section{
   background-image: url("../../img/about/about-bg.png");
   position: relative;
@@ -408,7 +410,7 @@
 /*======================= Pricing Table ========================== */
 
 
-.pricingTable{
+/* .pricingTable{
   margin-top:30px;
   text-align: center;
   position: relative;
@@ -519,11 +521,85 @@
   .pricingTable{
       margin-bottom: 35px;
   }
+} */
+
+/* ============================= Home Team section =================== */
+
+/* 
+
+.title {
+  font-size: 25px;
+  font-weight: 100
 }
 
+.icon {
+  position: relative;
+  bottom: 11px
+}
 
+.mt-100 {
+  margin-top: 100px
+}
 
+.profile img {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%
+} */
 
+/* .card {
+  border-radius: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2)
+} */
+.team-card-container{
+  margin-top: 7rem !important;
+}
+.card-details {
+  border: 0 !important;
+  background-color: #e4e4e4 !important;
+  height: 20rem;
+  
+}
+.card-details img{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 8px solid #ddd;
+  position: relative;
+  bottom: 2rem;
+}
+.team-post{
+  color: tomato;
+  font-size: .7rem;
+  text-align: center !important;
+
+}
+
+/* .card-body {
+  position: relative;
+  bottom: 35px
+}
+
+.btn {
+  margin-top: 36px;
+  margin-bottom: 45px;
+  background-color: #AB47BC;
+  border: none;
+  color: #fff
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  color: #fff
+}
+
+.header {
+  padding-top: 40px
+} */
 /* =========================== Clients =============================== */
 
 

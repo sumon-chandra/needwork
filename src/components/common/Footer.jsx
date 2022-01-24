@@ -12,8 +12,8 @@ const Footer = () => {
             <div className="row">
               <div className="col-lg-3 col-sm-6">
                 <div className="address">
-                  <img src={footerImg} className="w-50" alt="" />
-                  <p className="mb-4 mt-4">Mirpur, Dhaka</p>
+                  <img src={footerImg} className="w-75" alt="" />
+                  <p className="mb-4 mt-4">Mirpur 1, Dhaka</p>
                   <p>
                     <strong>Phone:</strong> 01722077442
                   </p>
@@ -71,7 +71,7 @@ const Footer = () => {
               </div>
 
               <div className="col-lg-4 col-sm-6 newsletter">
-                <h4>Our Newsletter</h4>
+                <h4> Let's Jump</h4>
                 <p className="text-secondary">
                   “Waiting for perfect time and opportunity. It comes never -
                   start now.” <br /> - <span className="highlight py-2">Amit Ray</span>
@@ -82,22 +82,36 @@ const Footer = () => {
                 </form>
 
                 <div className="social-links mt-3">
-                  <Link to="https://www.facebook.com/needworkservices">
+                  <a target="_blanck" href="https://www.facebook.com/needworkservices">
                     <i className="fab fa-facebook-f"></i>
-                  </Link>
-                  <Link to="#">
+                  </a>
+                  <a href="#">
                     <i className="fab fa-twitter"></i>
-                  </Link>
-                  <Link to="https://www.linkedin.com/company/need-work">
+                  </a>
+                  <a target="_blanck" href="https://www.linkedin.com/company/need-work">
                     <i className="fab fa-linkedin-in"></i>
-                  </Link>
-                  <Link to="#">
+                  </a>
+                  <a target="_blanck" href="#">
                     <i className="fab fa-youtube"></i>
-                  </Link>
-                  <Link to="#">
+                  </a>
+                  <a target="_blanck" href="#">
                     <i className="fab fa-pinterest-p"></i>
-                  </Link>
+                  </a>
                 </div>
+                {/* <div className="social-links social mt-3">
+                  <a target="_blank" href="https://www.facebook.com/profile.php?id=100041872263404">
+                    <i className="fab fa-facebook-f"></i>
+                  </a>
+                  <a target="_blank" href="https://twitter.com/Sumon__Chandra">
+                    <i className="fab fa-twitter"></i>
+                  </a>
+                  <a target="_blank" href="https://www.linkedin.com/in/sumon-chandra-shil-2a79a1216/">
+                    <i className="fab fa-linkedin-in"></i>
+                  </a>
+                  <a target="_blank" href="https://www.linkedin.com/in/sumon-chandra-shil-2a79a1216/">
+                    <i className="fab fa-youtube"></i>
+                  </a>
+                </div> */}
               </div>
             </div>
           </div>

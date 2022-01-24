@@ -47,7 +47,7 @@ const Slider = () => {
                 <p className="slider-desc ">
                   be found. be heard. be effective
                 </p>
-                <Link to="#" className="btn slider-btn rounded-pill text-white">
+                <Link to="/services" className="btn slider-btn rounded-pill text-white">
                   Explore
                 </Link>
               </div>
@@ -63,7 +63,7 @@ const Slider = () => {
                 <p className="slider-desc ">
                   design is a solution to a problem, <br />art is a question to a problem
                 </p>
-                <Link to="#" className="btn slider-btn rounded-pill text-white">
+                <Link to="/services" className="btn slider-btn rounded-pill text-white">
                   Get more
                 </Link>
               </div>
@@ -81,7 +81,7 @@ const Slider = () => {
                 <p className="slider-desc ">
                   enhance your vision for batter life.
                 </p>
-                <Link to="#" className="btn slider-btn rounded-pill text-white">
+                <Link to="/services" className="btn slider-btn rounded-pill text-white">
                   Get more
                 </Link>
               </div>

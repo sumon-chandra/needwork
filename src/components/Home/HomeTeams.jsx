@@ -1,27 +1,18 @@
 import React from "react";
-import "./Teams.css";
 import sumon from "../../img/team/sumon.png";
 import sohan from "../../img/team/sohan.png";
 import rakib from "../../img/team/rakib.png";
 import sabbir from "../../img/team/sabbir.png";
 import { Link } from "react-router-dom";
-import Subscribe from "../Home/Subscribe"
-const Teams = () => {
+
+const HomeTeams = () => {
   return (
-    <div className="page-head">
-      <div className="d-flex align-items-center justify-content-center about-top-container">
-        <div className=" about-top">
-          <h2 className="fs-1">Meet Our Team Members</h2>
-          <Link to="/home" className="page-head-nav pe-3">
-            Back to Home <i class="fas fa-arrow-right"></i>
-          </Link>
-        </div>
-      </div>
+    <div>
       <div class="container home-team-container mx-auto mt-5 col-md-10 mt-100">
         <div data-aos="fade-up" className="head-title text-center">
         <h1>Our Expert Team</h1>
       </div>
-        <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4 mb-5">
+        <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
           <div class="col team-card-container">
             <div class="card card-details d-flex flex-column justify-content-center align-items-center">
               <img src={sumon} class="card-img-top " alt="..." />
@@ -116,9 +107,8 @@ const Teams = () => {
           </div>
         </div>
       </div>
-      <Subscribe />
     </div>
   );
 };
 
-export default Teams;
+export default HomeTeams;

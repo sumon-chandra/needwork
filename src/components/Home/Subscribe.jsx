@@ -15,7 +15,6 @@ const Subscribe = () => {
       <div className="subscribe-container container">
         <div className="empty">
           <img data-aos="fade-up" className="like-men" src={likePeople} alt="" />
-          <img data-aos="flip-right" src={laptopSticker} alt="" className="laptop-sticker" />
           <img data-aos="fade-up" src={sent} alt="" className="sentMail-sticker" />
           <img data-aos="fade-up-right" src={sentMail} alt="" className="sent-sticker" />
         </div>
