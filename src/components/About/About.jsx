@@ -27,35 +27,25 @@ const About = () => {
             Design & Development, Graphic Designing many more.
           </h5>
           <p>
-            We Avista Digital like to work for the small businesses. our mission
-            is to grow your business bigger. That means. Your business is our
-            business. We have been providing Digital Marketing services for the
-            last 3 years. We help various local businessess to grow their
-            business locally. We provide SEO (Search Engine Optimization), SEM
-            (Search Engine Marketing), SMM (Social Media Marketing), Content
-            Marketing, Email Marketing and All kinds of Graphics Design
-            solutions. <br /> <br />
-            If you are small or local business owner, We are the best hand to
-            handle your Digital Marketing. Right now, We provide our
-            Professional SEO services to Dhaka, New York, Dubai, Boston, Bali,
-            Bangkok etc cities. Our SEO Service is 100% Professional and
-            Affordable.
+          Needwork is one of the best digital service providers in Bangladesh to showcase the strength of your brand. We provide website design and development, SEO, digital marketing, social media management, graphic design, digital consultancy and many more services. Perhaps you have already made a claim and you are thinking of building a website for your organization, 
           </p>
         </div>
         <div className="our-mission">
             <h2 className="text-center about-title">Our mission affordable Digital Service for small business</h2>
-            <p>Our Mission is very crystal clear, We are here to help the small business. The big businesses have very big marketing budget, So they are getting advantages. But small businesses cannot get the advantages with small SEO or Digital marketing budget. So our mission is to provide you Preofessional SEO and Digital Marketing services at afoordable prices.</p>
+            <p>Whether you are a small or local business owner, we are the appropriate hand to handle your business. Our expert digital marketing and SEO services are now available in Dhaka, New York, Dubai, Boston, Bali, Bangkok, and a number of other countries. We provide a competent and cost-effective service.</p>
         </div>
         <div className="why-best">
-            <h2 className="text-center about-title">Why we say - we are the best <span className="highlight">DIgital Service Provider</span> in Bangladesh?</h2>
+            <h2 className="text-center about-title">Why we say - we are the best <span className="highlight">Digital Service Provider</span> in Bangladesh?</h2>
             <ul>
-                <li><i class="fas fa-hand-point-right pe-2"></i> Our SEO Services are Affordable</li>
+                <li><i class="fas fa-hand-point-right pe-2"></i> We offer a full package of Digital Service.</li>
+                <li><i class="fas fa-hand-point-right pe-2"></i> We provide you fully responsive Website for your Business.</li>
                 <li><i class="fas fa-hand-point-right pe-2"></i> We Provide result driven Digital Marketing Solutions</li>
                 <li><i class="fas fa-hand-point-right pe-2"></i> We follow 100% White hat SEO method.</li>
                 <li><i class="fas fa-hand-point-right pe-2"></i> We try our best to rank your site within ASAP!</li>
+                <li><i class="fas fa-hand-point-right pe-2"></i> We provide you full package of Graphic Design Service.</li>
                 <li><i class="fas fa-hand-point-right pe-2"></i> We will provide you 24/7 support.</li>
                 <li><i class="fas fa-hand-point-right pe-2"></i> We will provide you exactly what you need.</li>
-                <li><i class="fas fa-hand-point-right pe-2"></i> If you are not satisifed or not result driven work, we will refund you.</li>
+                <li><i class="fas fa-hand-point-right pe-2"></i> If you are not satisfied or not result driven work, we will refund you.</li>
             </ul>
         </div>
       </div>

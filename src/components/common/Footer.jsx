@@ -27,7 +27,7 @@ const Footer = () => {
                 <h4>Useful Links</h4>
                 <ul>
                   <li>
-                    <i className="fas fa-check"></i> <Link to="#">Home</Link>
+                    <i className="fas fa-check"></i> <Link to="/home">Home</Link>
                   </li>
                   <li>
                     <i className="fas fa-check"></i>{" "}
@@ -56,7 +56,7 @@ const Footer = () => {
                     <Link to="/services">Web Design & Development</Link>
                   </li>
                   <li>
-                    <i className="fas fa-check"></i> <Link to="#">SEO</Link>
+                    <i className="fas fa-check"></i> <Link to="/services">SEO</Link>
                   </li>
 
                   <li>
@@ -91,12 +91,10 @@ const Footer = () => {
                   <a target="_blanck" href="https://www.linkedin.com/company/need-work">
                     <i className="fab fa-linkedin-in"></i>
                   </a>
-                  <a target="_blanck" href="#">
+                  <a target="_blanck" href="https://www.youtube.com/channel/UCpvPUGM66Y5r22RQqkxOY2Q">
                     <i className="fab fa-youtube"></i>
                   </a>
-                  <a target="_blanck" href="#">
-                    <i className="fab fa-pinterest-p"></i>
-                  </a>
+            
                 </div>
                 {/* <div className="social-links social mt-3">
                   <a target="_blank" href="https://www.facebook.com/profile.php?id=100041872263404">

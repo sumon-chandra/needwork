@@ -15,19 +15,16 @@ const HomeAbout = () => {
       </div>
       <div className=" about-container">
         <div data-aos="fade-up" className="home-about-img w-100">
-          {/* ==============
           
-          =================*/}
           <iframe className="col-12" src="https://www.youtube.com/embed/m1WcPRQzNdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div data-aos="fade-up" className="home-about-text">
-          <h3>We Offer a Full Range of Digital Marketing Services!</h3>
+          <h3>We Offer a Full Range of Digital Services!</h3>
           <p className="home-about-title-2">
-            We are the <span className="highlight">#1 Digital Marketing</span>  Agency in Bangladesh. We provide the
-            best SEO Services in Bangladesh
+            We are the <span className="highlight">#1 Digital service provider</span>  Agency in Bangladesh. We provide <span className="highlight">a bunch of Digital Service</span>.
           </p>
-          <p className="home-about-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde ex, exercitationem aperiam eaque excepturi provident cupiditate inventore voluptatibus iure quibusdam officia! Consectetur perferendis earum possimus voluptatum, maiores vel sed reprehenderit.</p>
-          <Link data-aos="fade-up" to="/services" className="btn about-btn rounded-pill text-white">
+          <p className="home-about-desc">Needwork is one of the best digital service providers in Bangladesh to reveal the power of your brand. We provide website design and development, SEO, Digital marketing, social media management, Graphic design, digital consultancy, and many more services.</p>
+          <Link data-aos="fade-up" to="/about-us" className="btn about-btn rounded-pill text-white">
             View more
           </Link>
         </div>

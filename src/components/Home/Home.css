@@ -109,7 +109,7 @@
 .card-text{
     font-size: 1rem;
     opacity: .8;
-    height: 7rem;
+    /* height: 7rem; */
     overflow: hidden;
     text-overflow: ellipsis !important;
 }
@@ -236,7 +236,6 @@
   width: 10rem !important;
   padding: 1rem 0;
 }
-
 
 .home-seo-btn-container{
   width: 23rem !important;
@@ -559,7 +558,7 @@
 .card-details {
   border: 0 !important;
   background-color: #e4e4e4 !important;
-  height: 20rem;
+  height: 22rem;
   
 }
 .card-details img{

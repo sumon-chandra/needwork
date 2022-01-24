@@ -26,10 +26,7 @@ const Services = () => {
           <div class="section-title">
             <h2 className="text-center service-title">Our Services</h2>
             <p class="col-md-8 offset-md-2">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry’s standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type
+            Needwork is one of the best digital service providers in Bangladesh to showcase the strength of your brand. We provide website design and development, SEO, digital marketing, social media management, graphic design, digital consultancy and many more services. Perhaps you have already made a claim and you are thinking of building a website for your organization.
             </p>
           </div>
           <div class="row">

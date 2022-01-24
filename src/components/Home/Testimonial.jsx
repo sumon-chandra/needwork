@@ -54,7 +54,7 @@ const Testimonial = () => {
             <div className="carousel-text">
             <h5>Moshiour, He is a Young, Talented and Professional guy. He really helped us a lot to Digitize our business. We generated 3.5x client after taking services from Avista Digital . Best Wishes</h5>
             <h6>Abdul Hamid</h6>
-            <p>Chairman, HB Logistic Bangladesh</p>
+            <p>Chairman, HB Logistic Canada</p>
             </div>
           </div>
           <div className="carousel-item  testimonial-slider ">

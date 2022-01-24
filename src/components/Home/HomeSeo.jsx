@@ -6,7 +6,6 @@ import img3 from "../../img/home-seo/seo-3.svg";
 import img4 from "../../img/home-seo/seo-4.png";
 import { Link } from "react-router-dom";
 import Aos from "aos";
-
 const HomeSeo = () => {
   useEffect( () => {
     Aos.init({duration:1000})
@@ -24,7 +23,7 @@ const HomeSeo = () => {
         </p>
       </div>
       {/* ================ Cards =============== */}
-      <div className="row row-cols-2 row-cols-sm-2 row-cols-md-2">
+      <div className="row row-cols-lg-4 row-cols-sm-2 row-cols-md-2">
         <div className="col" data-aos="fade-up">
           <div className="card d-flex flex-column align-items-center border-0">
             <img src={img1} className="card-img-top home-seo-img" alt="..." />
