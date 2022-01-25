@@ -1,6 +1,7 @@
 {
   "name": "needwork",
   "version": "0.1.0",
+  "homepage": "https://needwork.xyz",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.4.0",

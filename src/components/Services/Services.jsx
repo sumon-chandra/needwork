@@ -16,22 +16,22 @@ const Services = () => {
       <div className="d-flex align-items-center justify-content-center about-top-container">
         <div className=" about-top">
           <h2 className="fs-1">Services of Need Work</h2>
-          <Link to="/home" className="page-head-nav pe-3">
-            Back to Home <i class="fas fa-arrow-right"></i>
+          <Link to="/" className="page-head-nav pe-3">
+            Back to Home <i className="fas fa-arrow-right"></i>
           </Link>
         </div>
       </div>
-      <section class="services">
-        <div class="container">
-          <div class="section-title">
+      <section className="services">
+        <div className="container">
+          <div className="section-title">
             <h2 className="text-center service-title">Our Services</h2>
-            <p class="col-md-8 offset-md-2">
+            <p className="col-md-8 offset-md-2">
             Needwork is one of the best digital service providers in Bangladesh to showcase the strength of your brand. We provide website design and development, SEO, digital marketing, social media management, graphic design, digital consultancy and many more services. Perhaps you have already made a claim and you are thinking of building a website for your organization.
             </p>
           </div>
-          <div class="row">
-            <div class="col-lg-4 col-md-12" data-aos="fade-up">
-              <div class="service-box">
+          <div className="row">
+            <div className="col-lg-4 col-md-12" data-aos="fade-up">
+              <div className="service-box">
                 <img src={marketingIcon} alt="" />
                 <h4>
                   <Link to="#">Digital Marketing</Link>
@@ -44,8 +44,8 @@ Each week we’ll learn about a new topic and how you can use it to grow your bu
                 
               </div>
             </div>
-            <div class="col-lg-4 col-md-12" data-aos="fade-up">
-              <div class="service-box">
+            <div className="col-lg-4 col-md-12" data-aos="fade-up">
+              <div className="service-box">
                 <img src={seoIcon} alt="" />
                 <h4>
                   <Link to="#">SEO</Link>
@@ -60,8 +60,8 @@ to a business’s online success.
                 
               </div>
             </div>
-            <div class="col-lg-4 col-md-12" data-aos="fade-up">
-              <div class="service-box">
+            <div className="col-lg-4 col-md-12" data-aos="fade-up">
+              <div className="service-box">
                 <img src={wordpressIcon} alt="" />
                 <h4>
                   <Link to="#">Wordpress</Link>
@@ -76,8 +76,8 @@ you a modern, clean website that meets the needs of your brand today, and will b
                 
               </div>
             </div>           
-            <div class="col-lg-4 col-md-12" data-aos="fade-up">
-              <div class="service-box">
+            <div className="col-lg-4 col-md-12" data-aos="fade-up">
+              <div className="service-box">
                 <img src={webIcon} alt="" />
                 <h4>
                   <Link to="#">Web Design & Development</Link>
@@ -92,8 +92,8 @@ you a modern, clean website that meets the needs of your brand today, and will b
                 
               </div>
             </div>           
-            <div class="col-lg-4 col-md-12" data-aos="fade-up">
-              <div class="service-box">
+            <div className="col-lg-4 col-md-12" data-aos="fade-up">
+              <div className="service-box">
                 <img src={graphicIcon} alt="" />
                 <h4>
                   <Link to="#">Graphic Design</Link>
@@ -107,8 +107,8 @@ perceived as a business.
                 
               </div>
             </div>
-            <div class="col-lg-4 col-md-12 " data-aos="fade-up">
-              <div class="service-box  h-50 bg-secondary py-5">
+            <div className="col-lg-4 col-md-12 " data-aos="fade-up">
+              <div className="service-box  h-50 bg-secondary py-5">
                 <img src={commingSoon} alt="" />
                 <h4>
                   <Link className="text-white" to="#">Our new service coming soon...</Link>

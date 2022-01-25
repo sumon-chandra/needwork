@@ -27,7 +27,7 @@ const Footer = () => {
                 <h4>Useful Links</h4>
                 <ul>
                   <li>
-                    <i className="fas fa-check"></i> <Link to="/home">Home</Link>
+                    <i className="fas fa-check"></i> <Link to="/">Home</Link>
                   </li>
                   <li>
                     <i className="fas fa-check"></i>{" "}

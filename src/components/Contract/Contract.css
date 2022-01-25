@@ -19,7 +19,7 @@
 /* ============= */
 
 
-.container-fluid {
+.contract-container {
     background-color: tomato
 }
 
@@ -51,7 +51,7 @@
 
 .links {
     padding-top: 50px;
-    width: 50%
+    width: 80%
 }
 .links a{
     text-align:left;

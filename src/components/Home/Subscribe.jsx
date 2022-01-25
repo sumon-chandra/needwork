@@ -20,7 +20,7 @@ const Subscribe = () => {
         </div>
         <form className="form-section">
           <div className="mb-3" >
-            <label for="exampleInputEmail1" className="form-label fs-4">
+            <label htmlFor="exampleInputEmail1" className="form-label fs-4">
               Let's jump right in....
             </label>
             <input

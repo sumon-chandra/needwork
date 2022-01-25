@@ -9,7 +9,7 @@ const Navbar = () => {
       <header className="navbar-container shadow">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container nav-contain">
-            <Link to="/home" className="navbar-brand">
+            <Link to="/" className="navbar-brand">
               <img src={mainLogo} alt="" className="main-logo" />
             </Link>
             <button
@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link to="/home" className="nav-link active" aria-current="page">
+                  <Link to="/" className="nav-link active" aria-current="page">
                     Home
                   </Link>
                 </li>

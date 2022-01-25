@@ -13,8 +13,8 @@ const About = () => {
       <div className="d-flex align-items-center justify-content-center about-top-container">
         <div className=" about-top">
           <h2 className="fs-1">About Need Work</h2>
-          <Link to="/home" className="page-head-nav pe-3">
-            Back to Home <i class="fas fa-arrow-right"></i>
+          <Link to="/" className="page-head-nav pe-3">
+            Back to Home <i className="fas fa-arrow-right"></i>
           </Link>
         </div>
       </div>
@@ -37,15 +37,15 @@ const About = () => {
         <div className="why-best">
             <h2 className="text-center about-title">Why we say - we are the best <span className="highlight">Digital Service Provider</span> in Bangladesh?</h2>
             <ul>
-                <li><i class="fas fa-hand-point-right pe-2"></i> We offer a full package of Digital Service.</li>
-                <li><i class="fas fa-hand-point-right pe-2"></i> We provide you fully responsive Website for your Business.</li>
-                <li><i class="fas fa-hand-point-right pe-2"></i> We Provide result driven Digital Marketing Solutions</li>
-                <li><i class="fas fa-hand-point-right pe-2"></i> We follow 100% White hat SEO method.</li>
-                <li><i class="fas fa-hand-point-right pe-2"></i> We try our best to rank your site within ASAP!</li>
-                <li><i class="fas fa-hand-point-right pe-2"></i> We provide you full package of Graphic Design Service.</li>
-                <li><i class="fas fa-hand-point-right pe-2"></i> We will provide you 24/7 support.</li>
-                <li><i class="fas fa-hand-point-right pe-2"></i> We will provide you exactly what you need.</li>
-                <li><i class="fas fa-hand-point-right pe-2"></i> If you are not satisfied or not result driven work, we will refund you.</li>
+                <li><i className="fas fa-hand-point-right pe-2"></i> We offer a full package of Digital Service.</li>
+                <li><i className="fas fa-hand-point-right pe-2"></i> We provide you fully responsive Website for your Business.</li>
+                <li><i className="fas fa-hand-point-right pe-2"></i> We Provide result driven Digital Marketing Solutions</li>
+                <li><i className="fas fa-hand-point-right pe-2"></i> We follow 100% White hat SEO method.</li>
+                <li><i className="fas fa-hand-point-right pe-2"></i> We try our best to rank your site within ASAP!</li>
+                <li><i className="fas fa-hand-point-right pe-2"></i> We provide you full package of Graphic Design Service.</li>
+                <li><i className="fas fa-hand-point-right pe-2"></i> We will provide you 24/7 support.</li>
+                <li><i className="fas fa-hand-point-right pe-2"></i> We will provide you exactly what you need.</li>
+                <li><i className="fas fa-hand-point-right pe-2"></i> If you are not satisfied or not result driven work, we will refund you.</li>
             </ul>
         </div>
       </div>
